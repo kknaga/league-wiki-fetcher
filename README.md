@@ -1,4 +1,4 @@
-### League of Legends Fandom Data Fetcher
+# League of Legends Fandom Data Fetcher
 
 Get the latest data from fandom in JSON format
 
