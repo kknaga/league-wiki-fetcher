@@ -8,7 +8,7 @@ you can either copy `fandom.json` from the repository or run the script to get t
 ```
 npm i
 
-npm run buil
+npm run build
 ```
 
 The fetcher is defined with a single url to fetch and save as JSON. However, the logic for fetching data from fandom can be extended to other URLs as long as they're created in a similar way.
