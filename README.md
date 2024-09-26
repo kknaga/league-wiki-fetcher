@@ -20,7 +20,7 @@ npm i league-fandom-fetcher
 ```
 import { getFandomDataAsJson } from 'league-fandom-fetcher';
 
-getFandomDataAsJson('https://leagueoflegends.fandom.com/wiki/Module:SkinData/data');
+const skinsData = await getFandomDataAsJson('https://leagueoflegends.fandom.com/wiki/Module:SkinData/data');
 ```
 
 The fetcher is defined with a single url to fetch and save as JSON. However, the logic for fetching data from fandom can be extended to other URLs as long as they're created in a similar way.
