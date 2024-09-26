@@ -1,0 +1,25 @@
+{
+  "name": "league-fandom-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches league of legends structured data from Fandom",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kknaga/league-fandom-fetcher.git"
+  },
+  "author": "kknaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kknaga/league-fandom-fetcher/issues"
+  },
+  "homepage": "https://github.com/kknaga/league-fandom-fetcher#readme",
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.2"
+  }
+}
