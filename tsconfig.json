@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ES2022", // Or "es6", "es2015", etc. based on your needs
+    "target": "ES2022", // Or "es6", "es2015", etc. based on your target environment
+    "moduleResolution":"node",
+  },
+}

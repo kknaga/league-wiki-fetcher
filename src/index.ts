@@ -1,11 +1,4 @@
-import { writeFileSync } from "fs";
-import { urls } from "./constants";
-import { FnadomChampion } from "./types";
 import { JSDOM } from "jsdom";
-
-const champions = await getFandomDataAsJson<FnadomChampion>(urls.fandom.skins());
-
-writeFileSync('fandom.json', JSON.stringify(champions, null, 2));
 
 export async function getFandomDataAsJson<T>(url: string) {
   const response = await fetch(url);
