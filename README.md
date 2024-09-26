@@ -2,7 +2,7 @@
 
 Get the latest data from fandom in JSON format
 
-### Using the script
+## Using the script
 you can either copy `fandom.json` from the repository or run the script to get the latest data.
 
 ```
@@ -11,7 +11,7 @@ npm i
 npm run export
 ```
 
-### Using the package in your project
+## Using the package in your project
 
 ```
 npm i league-fandom-fetcher
