@@ -1,8 +1,8 @@
 import { writeFileSync } from "fs";
 import { urls } from "./constants";
 import { FnadomChampion } from "./types";
-import { getFandomDataAsJson } from "./index";
+import { getWikiDataAsJson } from "./index";
 
-const champions = await getFandomDataAsJson<FnadomChampion>(urls.fandom.skins());
+const champions = await getWikiDataAsJson<FnadomChampion>(urls.wiki.skins());
 
-writeFileSync('fandom.json', JSON.stringify(champions, null, 2));
+writeFileSync('wiki.json', JSON.stringify(champions, null, 2));

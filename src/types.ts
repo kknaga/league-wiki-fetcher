@@ -1,11 +1,11 @@
-export type FandomChromas = Record<string, {
+export type WikiChromas = Record<string, {
   "id": number,
   "availability": string,
   "source": string,
   "distribution": string
 }>
 
-export type FandomSkin = {
+export type WikiSkin = {
   "id": number,
   formatname: string,
   "availability": string,
@@ -19,7 +19,7 @@ export type FandomSkin = {
   "newvoice": boolean,
   newquotes: boolean,
   transforming: boolean,
-  "chromas": FandomChromas,
+  "chromas": WikiChromas,
   "voiceactor": string[],
   "splashartist": string[],
   "lore": string,
@@ -28,7 +28,7 @@ export type FandomSkin = {
 
 export type FnadomChampion = {
   id: number,
-  skins: Record<string, FandomSkin>
+  skins: Record<string, WikiSkin>
 }
 export type CDChampionSummary = {
   "id": number,
