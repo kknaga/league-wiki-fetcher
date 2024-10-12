@@ -20,7 +20,7 @@ npm i league-wiki-fetcher
 ```
 import { getWikiDataAsJson } from 'league-wiki-fetcher';
 
-const skinsData = await getWikiDataAsJson('https://leagueoflegends.wiki.com/wiki/Module:SkinData/data');
+const skinsData = await getWikiDataAsJson('https://wiki.leagueoflegends.com/en-us/Module:SkinData/data');
 ```
 
 The fetcher is defined with a single url to fetch and save as JSON. However, the logic for fetching data from wiki can be extended to other URLs as long as they're created in a similar way.
